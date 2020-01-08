@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{9A95D1B9-A889-B08E-D159-D5C68757145B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Follow_Camera.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameController.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/Golf_Ball.cs" Line="28" Column="45" />
+      <File FileName="Assets/Scripts/LevelData.cs" Line="46" Column="34" />
+      <File FileName="Assets/Scripts/SettingsData.cs" />
+      <File FileName="Assets/Scripts/LevelJSONInit.cs" Line="30" Column="86" />
+      <File FileName="Assets/Scripts/LevelComplete.cs" Line="43" Column="60" />
+      <File FileName="Assets/Scripts/LevelCompleteButtons.cs" Line="32" Column="92" />
+      <File FileName="Assets/Scripts/Bowling_Pin.cs" Line="16" Column="38" />
+      <File FileName="Assets/Scripts/Follow_Camera.cs" Line="12" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mini Golf" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Follow_Camera.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="76d6e553-fa4a-406b-a13b-bfe7d03fcb2f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
