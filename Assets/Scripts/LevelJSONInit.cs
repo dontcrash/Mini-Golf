@@ -19,15 +19,19 @@ public class LevelJSONInit : MonoBehaviour{
         SettingsData.SetSaveData(settings);
 
         LevelData.SetLevelData(new LevelData("Level_1", "Desert", true, 2));
-        LevelData.SetLevelData(new LevelData("Level_2", "Heroic Minority", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_3", "Winds Of Stories", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_4", "Observing The Stars", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_5", "Winds Of Stories", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_6", "Winds Of Stories", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_7", "Winds Of Stories", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_8", "Winds Of Stories", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_9", "Winds Of Stories", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_10", "Winds Of Stories", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_2", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_3", "Desert", false, 2));
+        LevelData.SetLevelData(new LevelData("Level_4", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_5", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_6", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_7", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_8", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_9", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_10", "Desert", false, 3));
+
+        //Observing The Stars
+        //Heroic Minority
+        //Winds Of Stories
 
     }
 

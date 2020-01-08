@@ -5092,10 +5092,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7535452433177706111}
     m_Modifications:
+    - target: {fileID: 819948128346585342, guid: 2d4c2526c73924d50a3e28f105c3325c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 1728459664635445435, guid: 2d4c2526c73924d50a3e28f105c3325c,
         type: 3}
       propertyPath: m_Name
       value: Flag
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728459664635445435, guid: 2d4c2526c73924d50a3e28f105c3325c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2425154524138779304, guid: 2d4c2526c73924d50a3e28f105c3325c,
         type: 3}
@@ -5166,6 +5176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 12.500007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040004064666302379, guid: 2d4c2526c73924d50a3e28f105c3325c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4c2526c73924d50a3e28f105c3325c, type: 3}

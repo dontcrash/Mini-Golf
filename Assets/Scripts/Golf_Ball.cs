@@ -130,7 +130,7 @@ public class Golf_Ball : MonoBehaviour{
     }
 
     private void SlowBall() {
-        rb.velocity = Vector3.MoveTowards(rb.velocity, new Vector3(0, 0, 0), 0.015f);
+        rb.velocity = Vector3.MoveTowards(rb.velocity, new Vector3(0, 0, 0), 0.01f);
     }
 
 }
