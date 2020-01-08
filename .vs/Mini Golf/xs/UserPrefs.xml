@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{9A95D1B9-A889-B08E-D159-D5C68757145B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Follow_Camera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeBallLayer.cs">
     <Files>
       <File FileName="Assets/Scripts/GameController.cs" Line="46" Column="1" />
-      <File FileName="Assets/Scripts/Golf_Ball.cs" Line="28" Column="45" />
+      <File FileName="Assets/Scripts/Golf_Ball.cs" Line="62" Column="37" />
       <File FileName="Assets/Scripts/LevelData.cs" Line="46" Column="34" />
       <File FileName="Assets/Scripts/SettingsData.cs" />
-      <File FileName="Assets/Scripts/LevelJSONInit.cs" Line="30" Column="86" />
+      <File FileName="Assets/Scripts/LevelJSONInit.cs" Line="31" Column="1" />
       <File FileName="Assets/Scripts/LevelComplete.cs" Line="43" Column="60" />
       <File FileName="Assets/Scripts/LevelCompleteButtons.cs" Line="32" Column="92" />
       <File FileName="Assets/Scripts/Bowling_Pin.cs" Line="16" Column="38" />
-      <File FileName="Assets/Scripts/Follow_Camera.cs" Line="12" Column="22" />
+      <File FileName="Assets/Scripts/Follow_Camera.cs" Line="12" Column="23" />
+      <File FileName="Assets/Scripts/HideFlagPole.cs" Line="5" Column="42" />
+      <File FileName="Assets/Scripts/ChangeBallLayer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +19,7 @@
           <Node name="Mini Golf" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Follow_Camera.cs" selected="True" />
+                <Node name="ChangeBallLayer.cs" selected="True" />
               </Node>
             </Node>
           </Node>
