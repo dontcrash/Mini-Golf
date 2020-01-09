@@ -17,10 +17,8 @@ public class Follow_Camera : MonoBehaviour{
         transform.rotation = Quaternion.Euler(0, ball.angle, 0);
         Vector3 current = ball.transform.position - transform.TransformDirection(Vector3.forward * distance);
         current.y += yOffset;
-        if (current.y + yOffset > 0.5) {
-            transform.position = current;
-            transform.LookAt(ball.transform);
-        }
+        transform.position = current;
+        transform.LookAt(ball.transform);
     }
 
 }

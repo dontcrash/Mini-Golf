@@ -886,7 +886,7 @@ PrefabInstance:
     - target: {fileID: 5848157598468678138, guid: 0ecf5fe30db254d5587178a90e2da6f0,
         type: 3}
       propertyPath: m_Name
-      value: Environment
+      value: Desert
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ecf5fe30db254d5587178a90e2da6f0, type: 3}

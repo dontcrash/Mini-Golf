@@ -37,8 +37,17 @@ public class Golf_Ball : MonoBehaviour{
             controller.HoleSound();
             canShoot = false;
         }
+        if(other.transform.tag == "Environment") {
+            BallOutOfBounds();
+        }
     }
-    
+
+    private void OnCollisionEnter(Collision other) {
+        if(other.transform.tag == "Environment") {
+            BallOutOfBounds();
+        }
+    }
+
     private void Update() {
         DisplayGuides();
         HandleInput();
@@ -58,13 +67,16 @@ public class Golf_Ball : MonoBehaviour{
             DisplayGuides();
         }
         SlowBall();
-        //TODO use a collider to detect when the ball is off the course?
-        if(transform.position.y < -1) {
-            rb.constraints = RigidbodyConstraints.FreezeRotation;
-            rb.velocity = new Vector3(0, 0, 0);
-            transform.position = lastPosition;
-            lowVelocityCount = 0;
+        if(transform.position.y < -5) {
+            BallOutOfBounds();
         }
+    }
+
+    private void BallOutOfBounds() {
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
+        rb.velocity = new Vector3(0, 0, 0);
+        transform.position = lastPosition;
+        lowVelocityCount = 0;
     }
 
     private void SetAngle() {
@@ -94,10 +106,10 @@ public class Golf_Ball : MonoBehaviour{
         }
         if (!isMoving) {
             if (Input.GetKey(KeyCode.W)) {
-                if (power < maxPower) power += 0.5f;
+                if (power < maxPower) power += 1f;
             }
             if (Input.GetKey(KeyCode.S)) {
-                if (power > minPower) power -= 0.5f;
+                if (power > minPower) power -= 1f;
             }
             if (Input.GetKeyDown(KeyCode.Space)) {
                 rb.constraints = RigidbodyConstraints.None;

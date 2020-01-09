@@ -8,6 +8,7 @@ TagManager:
   - Ball
   - Wall
   - Bowling Pin
+  - Environment
   layers:
   - Default
   - TransparentFX

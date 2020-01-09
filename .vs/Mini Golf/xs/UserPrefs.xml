@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{9A95D1B9-A889-B08E-D159-D5C68757145B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelJSONInit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameController.cs" Line="46" Column="1" />
-      <File FileName="Assets/Scripts/Golf_Ball.cs" Line="27" Column="98" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="30" Column="25" />
+      <File FileName="Assets/Scripts/Golf_Ball.cs" Line="40" Column="9" />
       <File FileName="Assets/Scripts/LevelData.cs" Line="46" Column="34" />
-      <File FileName="Assets/Scripts/SettingsData.cs" />
-      <File FileName="Assets/Scripts/LevelJSONInit.cs" Line="22" Column="59" />
+      <File FileName="Assets/Scripts/SettingsData.cs" Line="7" Column="28" />
+      <File FileName="Assets/Scripts/LevelJSONInit.cs" Line="26" Column="75" />
       <File FileName="Assets/Scripts/LevelComplete.cs" Line="43" Column="60" />
       <File FileName="Assets/Scripts/LevelCompleteButtons.cs" Line="32" Column="92" />
-      <File FileName="Assets/Scripts/Follow_Camera.cs" Line="12" Column="23" />
+      <File FileName="Assets/Scripts/Follow_Camera.cs" Line="27" Column="1" />
       <File FileName="Assets/Scripts/HideFlagPole.cs" Line="14" Column="25" />
     </Files>
     <Pads>
@@ -16,8 +16,13 @@
         <State name="__root__">
           <Node name="Mini Golf" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Extras" expanded="True">
+                <Node name="Scene Fader" expanded="True">
+                  <Node name="Scripts" expanded="True" />
+                </Node>
+              </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="LevelJSONInit.cs" selected="True" />
+                <Node name="GameController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
