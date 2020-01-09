@@ -21,9 +21,9 @@ public class LevelJSONInit : MonoBehaviour{
         LevelData.SetLevelData(new LevelData("Level_1", "Desert", true, 2));
         LevelData.SetLevelData(new LevelData("Level_2", "Desert", false, 3));
         LevelData.SetLevelData(new LevelData("Level_3", "Desert", false, 2));
-        LevelData.SetLevelData(new LevelData("Level_4", "Desert", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_5", "Desert", false, 3));
-        LevelData.SetLevelData(new LevelData("Level_6", "Desert", false, 3));
+        LevelData.SetLevelData(new LevelData("Level_4", "Desert", false, 2));
+        LevelData.SetLevelData(new LevelData("Level_5", "Desert", false, 1));
+        LevelData.SetLevelData(new LevelData("Level_6", "Desert", false, 2));
         LevelData.SetLevelData(new LevelData("Level_7", "Desert", false, 3));
         LevelData.SetLevelData(new LevelData("Level_8", "Desert", false, 3));
         LevelData.SetLevelData(new LevelData("Level_9", "Desert", false, 3));
