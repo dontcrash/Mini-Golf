@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour{
     [SerializeField] GameObject backgroundMusicObject;
     [SerializeField] GameObject powerBarContainer;
     [SerializeField] GameObject shotCountLeft;
-    public static float fadeSceneTime = 3f;
+    public static float fadeSceneTime = 4f;
     [SerializeField] GameObject shotCount;
     [SerializeField] AudioClip puttSound;
     [SerializeField] AudioClip holeSound;
