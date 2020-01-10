@@ -5,7 +5,6 @@ using UnityEngine;
 public class Golf_Ball : MonoBehaviour{
 
     [SerializeField] float lowVelocityThreshold = 5;
-    [SerializeField] float maxAngularVelocity = 1f;
     [SerializeField] public float maxPower = 100;
     [SerializeField] GameController controller;
     [SerializeField] public float power = 50;
@@ -23,7 +22,6 @@ public class Golf_Ball : MonoBehaviour{
         rb = gameObject.GetComponent<Rigidbody>();
         lr = gameObject.GetComponent<LineRenderer>();
         lr.sortingLayerName = "Foreground";
-        rb.maxAngularVelocity = maxAngularVelocity;
         ballLayerMask = ~(1 << LayerMask.NameToLayer("Ball") | 1 << LayerMask.NameToLayer("Hole"));
         lr.endColor = new Color(1, 1, 1, 0.1f);
     }
@@ -58,7 +56,7 @@ public class Golf_Ball : MonoBehaviour{
         if (rb.velocity.magnitude > 0.5) {
             lowVelocityCount = 0;
         }
-        if (isMoving && rb.velocity.magnitude < 0.01) {
+        if (isMoving && rb.velocity.magnitude < 0.1) {
             lowVelocityCount++;
         }
         if (isMoving && lowVelocityCount > lowVelocityThreshold) {
@@ -93,11 +91,6 @@ public class Golf_Ball : MonoBehaviour{
     }
 
     private void HandleInput() {
-        if (Input.GetKey(KeyCode.F)) {
-            angle = 0;
-            //transform.rotation = Quaternion.identity;
-            //transform.localRotation = Quaternion.identity;
-        }
         if (Input.GetKey(KeyCode.A)) {
             angle -= 1;
         }
@@ -142,7 +135,9 @@ public class Golf_Ball : MonoBehaviour{
     }
 
     private void SlowBall() {
-        rb.velocity = Vector3.MoveTowards(rb.velocity, new Vector3(0, 0, 0), 0.01f);
+        if (lowVelocityCount > 2) {
+            rb.velocity *= 0.9f;
+        }
     }
 
 }
