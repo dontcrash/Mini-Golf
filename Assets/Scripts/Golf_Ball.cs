@@ -71,7 +71,7 @@ public class Golf_Ball : MonoBehaviour{
     }
 
     private void BallOutOfBounds() {
-        rb.constraints = RigidbodyConstraints.FreezeRotation;
+        rb.constraints = RigidbodyConstraints.FreezeAll;
         rb.velocity = new Vector3(0, 0, 0);
         transform.position = lastPosition;
         lowVelocityCount = 0;
@@ -82,7 +82,7 @@ public class Golf_Ball : MonoBehaviour{
     }
 
     private void FreezeBall() {
-        rb.constraints = RigidbodyConstraints.FreezeRotation;
+        rb.constraints = RigidbodyConstraints.FreezeAll;
         rb.velocity = new Vector3(0, 0, 0);
         if (canShoot) {
             controller.ShowUI(true);

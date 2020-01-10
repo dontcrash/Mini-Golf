@@ -201,11 +201,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3724104801321723829, guid: 81dad5b4107c84bfa9de34b870f38211,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -240
-      objectReference: {fileID: 0}
     - target: {fileID: 5131621684128099274, guid: 81dad5b4107c84bfa9de34b870f38211,
         type: 3}
       propertyPath: m_Camera
@@ -320,11 +315,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Complete UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 5464157901413149315, guid: 81dad5b4107c84bfa9de34b870f38211,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81dad5b4107c84bfa9de34b870f38211, type: 3}

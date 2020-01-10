@@ -22,24 +22,34 @@ public class LevelComplete : MonoBehaviour{
         gold.SetActive(false);
         if (lastShots == last.par - 2) {
             score = "Eagle";
+            bronze.SetActive(true);
+            silver.SetActive(true);
             gold.SetActive(true);
         }
         if (lastShots == last.par - 1) {
             score = "Birdie";
+            bronze.SetActive(true);
+            silver.SetActive(true);
             gold.SetActive(true);
         }
         if(lastShots == last.par) {
             score = "Par";
+            bronze.SetActive(true);
+            silver.SetActive(true);
             gold.SetActive(true);
         }
         if (lastShots == last.par + 1) {
             score = "Bogey";
+            bronze.SetActive(true);
             silver.SetActive(true);
         }
         //Sad face
         if (lastShots >= last.par + 2) {
             bronze.SetActive(true);
         }
+        //bronze.SetActive(true);
+        //silver.SetActive(true);
+        //gold.SetActive(true);
         LevelCompleteText.text = "Course " + ln.level + " - " + score + "!";
     }
 
